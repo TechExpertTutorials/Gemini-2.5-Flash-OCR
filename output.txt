@@ -1,0 +1,75 @@
+(gemini-flash-ocr) D:\Documents\Projects\AIVision\Gemini\OCR\Flash2_5>python GeminFlash2_5_OCR.py
+Client initialized successfully.
+✅ Found file: WalmartReceipt.png
+
+🚀 Step 2: Uploading file 'WalmartReceipt.png'...
+✅ Upload successful!
+   File Name (Resource ID): files/mruvtrjeb1fq
+   MIME Type: image/png
+
+🧠 Step 3: Generating content with the uploaded file...
+✅ Generation successful!
+
+--- Model Response ---
+This file is an image of a **Walmart retail purchase receipt**. It contains various key concepts and elements common to such documents, providing a record of a transaction.
+
+Here is a detailed, structured list of the key concepts and elements:
+
+**I. Store and Location Information**
+1.  **Brand Identity:**
+    *   **Walmart Logo:** Identifies the retail chain.
+    *   **Slogan:** "Save money. Live better.", Walmart's motto.
+2.  **Store Details:**
+    *   **Store Name:** "HAPPY MART" (likely an internal store identifier or a specific store name within the Walmart network, given the logo).
+    *   **Store Address:** "131 N MAIN ST SUMMERVILLE"
+    *   **Store ID/Location Code:** "98788822" (an internal identifier).
+    *   **Store Number (ST#):** "1223" (another store-specific identifier).
+
+**II. Transaction Identifiers**
+1.  **Date and Time of Transaction:**
+    *   **Date:** "10/07/2020"
+    *   **Time:** "05:52 PM"
+2.  **Point of Sale (POS) Details:**
+    *   **Operator/Cashier Number (OP#):** "2112"
+    *   **Terminal Number (TE#):** "1000" (identifies the specific cash register used).
+    *   **Transaction Control Number (TC#):** "3344" (a unique identifier for this specific transaction).
+    *   **Transaction Number (TR#):** Appears, but the specific number is blank in this instance.
+
+**III. Purchased Items Details**
+1.  **Item Listing:**
+    *   **Product Description:** "PEANUTS" and "TOMATOES".
+    *   **Product Serial Number:** "PRODUCT SERIAL #1" and "PRODUCT SERIAL #2" (used as labels for each item entry).
+    *   **Item Price:** "2.46" for peanuts, "4.98" for tomatoes.
+    *   **Taxable Indicator:** "T" next to each item price, indicating it's subject to sales tax.
+2.  **Item Count:**
+    *   **Total Items Sold:** "# ITEMS SOLD 4" (This indicates the total number of distinct units or line items, though only two product descriptions are listed. This could mean two units of each product, or there are unlisted items, or "PRODUCT SERIAL #1" and "PRODUCT SERIAL #2" are grouping multiple units).
+
+**IV. Financial Summary**
+1.  **Subtotal:** "7.44" (the sum of the item prices before tax).
+2.  **Tax Calculation:**
+    *   **Tax Rate:** "10.00 %"
+    *   **Tax Amount:** "0.74"
+3.  **Grand Total:** "8.18" (the final amount due, including tax).
+
+**V. Payment Details**
+1.  **Payment Method:**
+    *   **EFT DEBIT:** Indicates the transaction was paid using an Electronic Funds Transfer via a debit card.
+    *   **PAY FROM PRIMARY PURCHASE:** Specifies the source of funds for the debit payment.
+2.  **Payment Amounts:**
+ppears, but the specific code is blank in this instance (typically provided for card transactions).
+    *   **Terminal Number (TERMINAL #):** "3" (identifies the specific payment terminal device).
+
+**VI. Additional Elements**
+1.  **Barcode:** A standard retail barcode, likely containing transaction or product identification data, typically used for returns or internal tracking. 
+-----------------------
+
+🔍 Step 4: Retrieving metadata for file ID 'files/mruvtrjeb1fq'...
+✅ Retrieval successful!
+   Retrieved File Display Name: None
+   URI for temporary access: https://generativelanguage.googleapis.com/v1beta/files/mruvtrjeb1fq
+   Creation Time: 2025-12-16 00:30:03.842747+00:00
+
+🗑️ Step 5: Deleting file 'files/mruvtrjeb1fq' for cleanup...
+✅ File 'files/mruvtrjeb1fq' deleted successfully.
+
+(gemini-flash-ocr) D:\Documents\Projects\AIVision\Gemini\OCR\Flash2_5>
